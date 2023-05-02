@@ -23,8 +23,11 @@ close.addEventListener('click', ()=>{
 main.classList.remove('active')
 })
 
+function reload (){
+    main.classList.add('active')
 
-
+}
+reload()
 
 
 
