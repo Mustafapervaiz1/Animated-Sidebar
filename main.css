@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    html{
+        font-size:65.5px ;
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+      } 
+       header{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(27, 40, 40); 
+    height: 1.65rem;
+ color: rgb(226, 226, 225); 
+ border-bottom: 5px solid rgb(168, 251, 12);
+}
+
+ .nav_close{
+display: flex;
+flex-direction:column;
+position: absolute;
+top: 25px;
+       
+
+} 
+
+
+ li{
+    list-style: none;
+    font-size: 25px;
+    
+} 
+a{
+    /* text-decoration: none; */
+    color: aliceblue;
+}
+.main{
+    position: absolute;
+    top: 103px;
+    right: 0px;
+    height: 790px;
+    width: 20%;
+     background-color: rgb(32, 37, 36); 
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(168, 251, 12);
+    transform: translate(100%) ;
+    transition:  500ms linear;
+    text-transform: uppercase;}  
+
+ul{
+    display: flex;
+flex-direction: column;
+justify-content:center;
+
+ text-align: center; 
+line-height: 50.5px;
+position: absolute;
+    top: 130px;
+    right: -150px;
+font-weight: bold;
+color: aliceblue;
+}
+.fa-solid{
+    color: rgb(0, 0, 0);
+    position: absolute; 
+    top: 110px;
+    
+}
+.fa-regular{
+    color: rgb(244, 122, 0);
+    
+}
+.cross{
+    position: absolute;
+    top: -12px; 
+/* right: -295px; */
+ left: 8px; 
+font-size: 38px;
+
+}
+.active{
+    transform: translate(0%) ;
+     transition:  500ms linear;
+}
+
+  
